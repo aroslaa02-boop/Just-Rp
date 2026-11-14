@@ -1,0 +1,18 @@
+
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.stormmobile.rp'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.stormmobile.rp'
+        minSdk 23
+        targetSdk 28
+        versionCode 1
+        versionName '1.0'
+    }
+}
